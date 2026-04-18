@@ -1,1 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e9ecef;
+}
 
+h1 {
+    color: #007BFF;
+}
+
+.course-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.course-row input,
+.course-row select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px 14px;
+    text-align: center;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+}
